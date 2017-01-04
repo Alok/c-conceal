@@ -24,7 +24,7 @@ syntax match cNiceOperator /\S=\S/ms=s+1,me=e-1 conceal cchar=←
 
 syntax keyword cStructure enum conceal cchar=∩
 syntax keyword cStructure union conceal cchar=⋃
-syntax keyword cStructure struct conceal cchar=⊇
+syntax keyword cStructure struct conceal cchar=𝐒
 syntax keyword cOperator sizeof conceal cchar=𝔠
 
 syntax keyword cStatement return conceal cchar=⏎
@@ -45,6 +45,8 @@ syntax keyword cKeyword FALSE conceal cchar=𝐅
 syntax keyword cKeyword true conceal cchar=𝐓
 syntax keyword cKeyword TRUE conceal cchar=𝐓
 syntax keyword cKeyword NULL conceal cchar=∅
+syntax keyword cKeyword complex conceal cchar=ℂ
+syntax keyword cKeyword bool conceal cchar=𝔹
 
 hi link cNiceOperator Operator
 hi link cKeyword Keyword
