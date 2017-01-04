@@ -50,4 +50,4 @@ hi link cNiceOperator Operator
 hi link cKeyword Keyword
 hi! link Conceal Operator
 
-set conceallevel=2
+setlocal conceallevel=2
